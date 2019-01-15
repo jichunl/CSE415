@@ -8,11 +8,13 @@ def five_x_cubed_plus_1(x):
 	return 5 * (x ** 3) + 1
 
 #2
-def pair_off(ary):
-	result = []
-	for i in range(0, len(ary), 2):
-		result.append([ary[i],ary[i+1]])
-	return result
+def pair_off(n):
+    pairs = []
+    for x in range(int (len(n) / 2)):
+        pairs.append([n[x * 2], n[x * 2 + 1]])
+    if (int (len(n) % 2) == 1):
+        pairs.append([n[-1]])
+    return pairs
 
 #3
 def mystery_code(input_string):
@@ -29,7 +31,7 @@ def mystery_code(input_string):
 					result = result + chr(ord(c) - 7).upper()
 				else:
 					result = result + chr(ord(c) - 7).lower()
-	return output
+	return result
 
 #4
 def past_tense(words):
@@ -39,7 +41,7 @@ def past_tense(words):
 			  'eat':'ate',
 			  'go':'went'}
 	for word in words:
-		word = str.lower()
+		word = str.lower(word)
 		if word in irregular_dict.keys():
 			result.append(irregular_dict[word])
 		elif word[-1] is 'e':
@@ -49,4 +51,5 @@ def past_tense(words):
 		elif word[-2] in 'aeiou' and word[-1] not in 'aeiouwy' and word[-3] not in 'aeiou':
 			result.append(word + word[-1] + 'ed')
 		else:
-			reuslt.append(word + 'ed')
+			result.append(word + 'ed')
+	return result

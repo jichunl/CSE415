@@ -56,7 +56,11 @@ def respond(the_input):
 	elif 'weather' in wordlist:
 		answer = random.choice(["It's a sunny day.", "It's a rainy day."])
 
-	# rule 7: When the chatbot is asked for other ideas about what to eat
+	# rule 7: When the chat bot receives greetings from the user
+	elif 'good' in wordlist and 'morning' in wordlist:
+		answer = 'Good morning to you! What can I do for you today?'
+	
+	# rule 8: When the chatbot is asked for other ideas about what to eat
 	elif 'other' in wordlist and 'ideas' in wordlist :
 		answer = 'Probably we should order take-out from your favorite restaurant.'
 	
@@ -109,6 +113,7 @@ def respond(the_input):
 	# rule 18: Respond when the user say the exactly same thing to the bot
 	elif the_input in input_memory:
 		answer = 'I believe you just told me that.'
+
 	
 	# rule 19: When the bot dont know what to say
 	else:
