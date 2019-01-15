@@ -2,8 +2,8 @@
 # This program runs a dialog between two agents, which must be defined
 # elsewhere as separate modules.
 
-import jichunli_agent as agentA
-import Hearnone as agentB
+import xl74_agent as agentA
+import jichunli_agent as agentB
 
 N_TURNS = 15
 

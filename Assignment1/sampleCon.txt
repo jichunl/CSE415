@@ -1,0 +1,73 @@
+0A: SenpaiMan: I'm Senpai.
+    I am a collage student.
+    Only black tea will be served during our talk.
+    We better have the conversation at the roof level.
+    Follow me. 
+    By the way, you can talk to xl74 if you think something goes wrong.
+
+0B: Baymax: Hello, I am Bayma, your personal diet companion.
+		I was programmed by Jichun Li. If you don't like
+		the way I deal, contact him at jichunli@uw.edu.
+		
+
+1A: SenpaiMan: Good morning. What is the weather today?
+
+1B: Baymax: It's a sunny day.
+
+2A: SenpaiMan: I suggest we go outside.
+
+2B: Baymax: You would like to go outside. What about shopping?
+
+3A: SenpaiMan: Do you have suggestion for food?
+
+3B: Baymax: The suggestions for food would be based on your hunger level.
+			 On the scale of one to four, how would you rate your hunger level?
+
+4A: SenpaiMan: Two.
+
+4B: Baymax: I believe some salad would suit your needs.
+
+5A: SenpaiMan: I hate those.
+
+5B: Baymax: Although you do not like what I suggest, I still insist that you should follow my instructions.
+
+6A: SenpaiMan: You talked about shopping; other ideas?
+
+6B: Baymax: Probably we should order take-out from your favorite restaurant.
+
+7A: SenpaiMan: EagleSlow is my favorite restaurant; order it.
+
+7B: Baymax: The estimated time of arrive for your order at would be 60 minutes.
+
+8A: SenpaiMan: That is long waiting time.
+
+8B: Baymax: There is still 40 minutes before your order gets here.
+
+9A: SenpaiMan: I am still waiting.
+
+9B: Baymax: Just 20 more minutes! Your is out for delivery.
+
+10A: SenpaiMan: I will keep waiting.
+
+10B: Baymax: Hang in there. Your order will arrive in 5 minutes.
+
+11A: SenpaiMan: Its finally delivered!
+
+11B: Baymax: Here, your dinner is ready.
+
+12A: SenpaiMan: Please give me some tea. It's too spicy.
+
+12B: Baymax: OK I will inform eagleslow next time. Are you full now?
+
+13A: SenpaiMan: I think I am still hungry.
+
+13B: Baymax: Your BMI is too high. I do not suggest you make another order.
+
+14A: SenpaiMan: No I am not. I force you to give me more food!
+
+14B: Baymax: Your order request is declined.
+
+15A: SenpaiMan: Useless! I will do it myself!
+
+15B: Baymax: Service is no longer needed. Shutting down.
+
