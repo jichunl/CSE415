@@ -15,5 +15,14 @@ pair_off(['a', 'b', 'c', 'd', 'e', 1]) -> [['a', 'b'], ['c', 'd'], ['e', 1]]
 3.
 mystery_code("abc Iz th1s Secure? n0, no, 9!") -> "TUV bS MA1L lXVNKX? G0, GH, 9!"
 
-mystery_code()
+mystery_code("Hello world!") -> "aXEEH PHKEW!"
 
+mystery_code("What is your name?") -> "pATM BL RHNK GTFX?"
+
+4.
+past_tense(['program', 'debug', 'execute', 'crash', 'repeat', 'eat']) ->
+ ['programmed', 'debugged', 'executed', 'crashed', 'repeated', 'ate']
+
+past_tense(['watch', 'walk', 'act', 'enable']) -> ['watched', 'walked', 'acted', 'enabled']
+
+past_tense(['play', 'evaluate', 'regard', 'close']) -> ['played', 'evaluated', 'regarded', 'closed']

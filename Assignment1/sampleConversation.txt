@@ -14,6 +14,9 @@
 
 1B: SenpaiMan: Good morning. What is the weather today?
 
+########################## 
+#RETURN A RANDOM WEATHER #
+##########################
 2A: Baymax: It's a rainy day.
 
 2B: SenpaiMan: Let's have some fun indoor.
@@ -38,7 +41,9 @@
 7A: Baymax: Probably we should order take-out from your favorite restaurant.
 
 7B: SenpaiMan: KurgerBing is my favorite restaurant; order it.
-
+#######################################################################
+# CYCLE FEATURE THAT IS TRIGGERED WHEN THE USER TALKS ABOUT WAIT TIME #
+#######################################################################
 8A: Baymax: The estimated time of arrive for your order at would be 60 minutes.
 
 8B: SenpaiMan: That is long waiting time.
@@ -59,6 +64,9 @@
 
 12B: SenpaiMan: Please give me some tea. It's too spicy.
 
+###############################################################
+# USING THE NAME OF THE RESTAURANT BASE ON THE MEMORY FEATURE #
+###############################################################
 13A: Baymax: OK I will inform Kurgerbing next time. Are you full now?
 
 13B: SenpaiMan: I think I am still hungry.
