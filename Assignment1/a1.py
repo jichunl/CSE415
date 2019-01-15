@@ -21,17 +21,19 @@ def pair_off(ary):
 def mystery_code(input_string):
 	result = ''
 	for c in input_string:
+		next_char = c
 		if str.isalpha(c):
 			if c.upper() < 'H':
 				if c.islower():
-					result = result + chr(ord(c) + 19).upper()
+					next_char = chr(ord(c) + 19).upper()
 				else:
-					result = result + chr(ord(c) + 19).lower()
+					next_char = chr(ord(c) + 19).lower()
 			else:
 				if c.islower():
-					result = result + chr(ord(c) - 7).upper()
+					next_char = chr(ord(c) - 7).upper()
 				else:
-					result = result + chr(ord(c) - 7).lower()
+					next_char = chr(ord(c) - 7).lower()
+		result = result + next_char
 	return result
 
 #4
