@@ -1,0 +1,711 @@
+
+Welcome to jichunli_IDDFS
+Initial State:
+
+ M on left:3
+ C on left:3
+   M on right:0
+   C on right:0
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=0; COUNT = 0
+OPEN is now: 
+ M on left:0
+ C on left:3
+   M on right:3
+   C on right:0
+ boat is on the right.
+, 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=1; COUNT = 1
+len(OPEN)=1; len(CLOSED)=2; COUNT = 1
+len(OPEN)=1; len(CLOSED)=0; COUNT = 1
+OPEN is now: 
+ M on left:0
+ C on left:3
+   M on right:3
+   C on right:0
+ boat is on the right.
+, 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=1; COUNT = 2
+OPEN is now: 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the right.
+
+len(OPEN)=1; len(CLOSED)=2; COUNT = 3
+OPEN is now: 
+ M on left:3
+ C on left:2
+   M on right:0
+   C on right:1
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=3; COUNT = 4
+len(OPEN)=1; len(CLOSED)=0; COUNT = 4
+OPEN is now: 
+ M on left:0
+ C on left:3
+   M on right:3
+   C on right:0
+ boat is on the right.
+, 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=1; COUNT = 5
+OPEN is now: 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the right.
+
+len(OPEN)=1; len(CLOSED)=2; COUNT = 6
+OPEN is now: 
+ M on left:3
+ C on left:2
+   M on right:0
+   C on right:1
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=3; COUNT = 7
+OPEN is now: 
+ M on left:0
+ C on left:2
+   M on right:3
+   C on right:1
+ boat is on the right.
+, 
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=4; COUNT = 8
+len(OPEN)=1; len(CLOSED)=5; COUNT = 8
+len(OPEN)=1; len(CLOSED)=0; COUNT = 8
+OPEN is now: 
+ M on left:0
+ C on left:3
+   M on right:3
+   C on right:0
+ boat is on the right.
+, 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=1; COUNT = 9
+OPEN is now: 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the right.
+
+len(OPEN)=1; len(CLOSED)=2; COUNT = 10
+OPEN is now: 
+ M on left:3
+ C on left:2
+   M on right:0
+   C on right:1
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=3; COUNT = 11
+OPEN is now: 
+ M on left:0
+ C on left:2
+   M on right:3
+   C on right:1
+ boat is on the right.
+, 
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=4; COUNT = 12
+OPEN is now: 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the left.
+, 
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=5; COUNT = 13
+len(OPEN)=1; len(CLOSED)=6; COUNT = 13
+OPEN is now: 
+ M on left:3
+ C on left:1
+   M on right:0
+   C on right:2
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=7; COUNT = 14
+len(OPEN)=1; len(CLOSED)=0; COUNT = 14
+OPEN is now: 
+ M on left:0
+ C on left:3
+   M on right:3
+   C on right:0
+ boat is on the right.
+, 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=1; COUNT = 15
+OPEN is now: 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the right.
+
+len(OPEN)=1; len(CLOSED)=2; COUNT = 16
+OPEN is now: 
+ M on left:3
+ C on left:2
+   M on right:0
+   C on right:1
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=3; COUNT = 17
+OPEN is now: 
+ M on left:0
+ C on left:2
+   M on right:3
+   C on right:1
+ boat is on the right.
+, 
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=4; COUNT = 18
+OPEN is now: 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the left.
+, 
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=5; COUNT = 19
+OPEN is now: 
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the right.
+, 
+ M on left:0
+ C on left:1
+   M on right:3
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=6; COUNT = 20
+len(OPEN)=1; len(CLOSED)=7; COUNT = 20
+len(OPEN)=1; len(CLOSED)=0; COUNT = 20
+OPEN is now: 
+ M on left:0
+ C on left:3
+   M on right:3
+   C on right:0
+ boat is on the right.
+, 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=1; COUNT = 21
+OPEN is now: 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the right.
+
+len(OPEN)=1; len(CLOSED)=2; COUNT = 22
+OPEN is now: 
+ M on left:3
+ C on left:2
+   M on right:0
+   C on right:1
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=3; COUNT = 23
+OPEN is now: 
+ M on left:0
+ C on left:2
+   M on right:3
+   C on right:1
+ boat is on the right.
+, 
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=4; COUNT = 24
+OPEN is now: 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the left.
+, 
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=5; COUNT = 25
+OPEN is now: 
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the right.
+, 
+ M on left:0
+ C on left:1
+   M on right:3
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=6; COUNT = 26
+OPEN is now: 
+ M on left:3
+ C on left:1
+   M on right:0
+   C on right:2
+ boat is on the left.
+, 
+ M on left:0
+ C on left:1
+   M on right:3
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=7; COUNT = 27
+len(OPEN)=1; len(CLOSED)=8; COUNT = 27
+OPEN is now: 
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=9; COUNT = 28
+len(OPEN)=1; len(CLOSED)=0; COUNT = 28
+OPEN is now: 
+ M on left:0
+ C on left:3
+   M on right:3
+   C on right:0
+ boat is on the right.
+, 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=1; COUNT = 29
+OPEN is now: 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the right.
+
+len(OPEN)=1; len(CLOSED)=2; COUNT = 30
+OPEN is now: 
+ M on left:3
+ C on left:2
+   M on right:0
+   C on right:1
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=3; COUNT = 31
+OPEN is now: 
+ M on left:0
+ C on left:2
+   M on right:3
+   C on right:1
+ boat is on the right.
+, 
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=4; COUNT = 32
+OPEN is now: 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the left.
+, 
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=5; COUNT = 33
+OPEN is now: 
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the right.
+, 
+ M on left:0
+ C on left:1
+   M on right:3
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=6; COUNT = 34
+OPEN is now: 
+ M on left:3
+ C on left:1
+   M on right:0
+   C on right:2
+ boat is on the left.
+, 
+ M on left:0
+ C on left:1
+   M on right:3
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=7; COUNT = 35
+OPEN is now: 
+ M on left:0
+ C on left:1
+   M on right:3
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=1; len(CLOSED)=8; COUNT = 36
+len(OPEN)=1; len(CLOSED)=0; COUNT = 36
+OPEN is now: 
+ M on left:0
+ C on left:3
+   M on right:3
+   C on right:0
+ boat is on the right.
+, 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=1; COUNT = 37
+OPEN is now: 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the right.
+
+len(OPEN)=1; len(CLOSED)=2; COUNT = 38
+OPEN is now: 
+ M on left:3
+ C on left:2
+   M on right:0
+   C on right:1
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=3; COUNT = 39
+OPEN is now: 
+ M on left:0
+ C on left:2
+   M on right:3
+   C on right:1
+ boat is on the right.
+, 
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=4; COUNT = 40
+OPEN is now: 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the left.
+, 
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=5; COUNT = 41
+OPEN is now: 
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the right.
+, 
+ M on left:0
+ C on left:1
+   M on right:3
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=6; COUNT = 42
+OPEN is now: 
+ M on left:3
+ C on left:1
+   M on right:0
+   C on right:2
+ boat is on the left.
+, 
+ M on left:0
+ C on left:1
+   M on right:3
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=7; COUNT = 43
+OPEN is now: 
+ M on left:0
+ C on left:1
+   M on right:3
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=1; len(CLOSED)=8; COUNT = 44
+OPEN is now: 
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=9; COUNT = 45
+len(OPEN)=1; len(CLOSED)=0; COUNT = 45
+OPEN is now: 
+ M on left:0
+ C on left:3
+   M on right:3
+   C on right:0
+ boat is on the right.
+, 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=1; COUNT = 46
+OPEN is now: 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the right.
+
+len(OPEN)=1; len(CLOSED)=2; COUNT = 47
+OPEN is now: 
+ M on left:3
+ C on left:2
+   M on right:0
+   C on right:1
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=3; COUNT = 48
+OPEN is now: 
+ M on left:0
+ C on left:2
+   M on right:3
+   C on right:1
+ boat is on the right.
+, 
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=4; COUNT = 49
+OPEN is now: 
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the left.
+, 
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=5; COUNT = 50
+OPEN is now: 
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the right.
+, 
+ M on left:0
+ C on left:1
+   M on right:3
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=6; COUNT = 51
+OPEN is now: 
+ M on left:3
+ C on left:1
+   M on right:0
+   C on right:2
+ boat is on the left.
+, 
+ M on left:0
+ C on left:1
+   M on right:3
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=7; COUNT = 52
+OPEN is now: 
+ M on left:0
+ C on left:1
+   M on right:3
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=1; len(CLOSED)=8; COUNT = 53
+OPEN is now: 
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=9; COUNT = 54
+OPEN is now: 
+ M on left:0
+ C on left:0
+   M on right:3
+   C on right:3
+ boat is on the right.
+
+len(OPEN)=1; len(CLOSED)=10; COUNT = 55
+Congratulations on successfully guiding the missionaries and cannibals across the river!
+Solution path: 
+
+ M on left:3
+ C on left:3
+   M on right:0
+   C on right:0
+ boat is on the left.
+
+
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the right.
+
+
+ M on left:3
+ C on left:2
+   M on right:0
+   C on right:1
+ boat is on the left.
+
+
+ M on left:0
+ C on left:2
+   M on right:3
+   C on right:1
+ boat is on the right.
+
+
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the left.
+
+
+ M on left:0
+ C on left:1
+   M on right:3
+   C on right:2
+ boat is on the right.
+
+
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the left.
+
+
+ M on left:0
+ C on left:0
+   M on right:3
+   C on right:3
+ boat is on the right.
+
+Length of solution path found: 7 edges
+55 states expanded.
+MAX_OPEN_LENGTH = 2
