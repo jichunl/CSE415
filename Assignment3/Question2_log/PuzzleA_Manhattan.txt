@@ -1,0 +1,46 @@
+Initial state as given on the command line: [[3,0,1],[6,4,2],[7,8,5]]
+
+Welcome to UCS
+Initial State:
+
+[[3, 0, 1]
+ [6, 4, 2]
+ [7, 8, 5]]
+You've got all eight straight. Great!
+Solution path: 
+
+[[3, 0, 1]
+ [6, 4, 2]
+ [7, 8, 5]]
+
+[[3, 1, 0]
+ [6, 4, 2]
+ [7, 8, 5]]
+
+[[3, 1, 2]
+ [6, 4, 0]
+ [7, 8, 5]]
+
+[[3, 1, 2]
+ [6, 4, 5]
+ [7, 8, 0]]
+
+[[3, 1, 2]
+ [6, 4, 5]
+ [7, 0, 8]]
+
+[[3, 1, 2]
+ [6, 4, 5]
+ [0, 7, 8]]
+
+[[3, 1, 2]
+ [0, 4, 5]
+ [6, 7, 8]]
+
+[[0, 1, 2]
+ [3, 4, 5]
+ [6, 7, 8]]
+Length of solution path found: 7 edges
+Total cost of solution path found: 7.0
+7 states expanded.
+MAX_OPEN_LENGTH = 6
